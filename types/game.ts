@@ -17,7 +17,7 @@ export interface DialogueNode{
     characterId:CharacterId;
     text:string;
     expression?:'neutral'|'shocked'|'determined'|'pensive';
-    choice?:Choice[];
+    choices?:Choice[];
     triggerPuzzle?:'uv_journal'|'cipher'|'vault';
 }
 export interface Location{

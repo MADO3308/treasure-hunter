@@ -1,4 +1,4 @@
-import {Character,DialogueNode,Location,Clue} from '@types/game';
+import {Character,DialogueNode,Location,Clue} from '@/types/game';
 export const CHARACTERS: Record<string, Character>={
     lara:{
         id:'lara',
