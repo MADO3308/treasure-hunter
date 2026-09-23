@@ -1,7 +1,7 @@
 import type {Metadata} from 'next';
 import type {ReactNode} from 'react';
 import {Cinzel,Inter} from 'next/font/google';
-import './global.css';
+import './globals.css';
 import {AudioController} from "@/components/ui/AudioController";
 const cinzel=Cinzel({
   subsets:['latin'],
