@@ -1,10 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-@layer base{
+@import "tailwind";
+@layer base {
   body{
-    @apply bg-slate-950 text-slate-100 antialiased selection:bg-amber-500 selection:text-slate-950;
-    font-feature-settings:"flex"1,"calt"1;
+    background-color:#020617;
+    color:#f1f5f9;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-something:grayscale;
+    font-feature-settings:"kern"1,"calt"1;
+  }
+  ::selection{
+    background-color:#f59e0b;
+    color:#020617;
   }
 }
 ::-webkit-scrollbar{
@@ -17,9 +22,5 @@
   background:#facc15;
 }
 .nautical-vignette{
-  background:radial-gradient(
-    circle at center,
-    transparent 40%,
-    rgba(4,13,26,0.85) 90%
-  );
+  background:radial-gradient(circle at center,transparent 40%,rgba(4,13,26.0.85) 90%);
 }
