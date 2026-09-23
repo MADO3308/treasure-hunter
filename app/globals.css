@@ -1,4 +1,4 @@
-@import "tailwind";
+@import "tailwindcss";
 @layer base {
   body{
     background-color:#020617;
