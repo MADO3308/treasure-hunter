@@ -24,7 +24,7 @@ export const CHARACTERS: Record<string, Character>={
 };
 export const LOCATIONS:Location[]=[
     {
-        id:'abondoned_dock',
+        id:'abandoned_dock',
         name:'Asura Docks',
         subtitle:'The starting point of the failed 1892 expedition',
         coordinates:{x:22,y:70},
